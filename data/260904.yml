@@ -7,7 +7,7 @@ about:
   head: 0d1274f
   archived: false
   latestVersion: v1.5.1
-  collectedAt: 2026-09-04T19:54:15Z
+  collectedAt: 2026-09-04T20:46:26Z
 timeline:
   created: 2025-07-24
   lastCommit: 2025-10-27
@@ -80,5 +80,28 @@ total:
   openIssue: 4
   commit: 42
 ---
+path: /home/runner/.x-repo/github.com/akinoiro/ssh-list
+collectedAt: 2026-09-04T20:46:27Z
+loc:
+  Rust:
+    code: 1740
+    comments: 0
+    blanks: 98
+    files: 5
+  Toml:
+    code: 23
+    comments: 0
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 102
+    blanks: 16
+    files: 2
+total:
+  code: 1763
+  comments: 102
+  blanks: 116
+  files: 8
 ---
 
