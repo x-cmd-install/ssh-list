@@ -12,6 +12,16 @@
 x install ssh-list
 ```
 
+## 代码规模
+
+合计: **1,763** 行代码（覆盖前 5 种语言、共 **8** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 1,740 | 0 | 98 | 5 |
+| Toml | 23 | 0 | 2 | 1 |
+| Markdown | 0 | 102 | 16 | 2 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/akinoiro/ssh-list>
@@ -22,19 +32,6 @@ x install ssh-list
 - **最新版本**: `v1.5.1` (2025-10-27)
 - **最近提交**: 2025-10-27
 - **Release 含资产**: 8 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz) | 652.1 KiB | `native/darwin/arm64` |
-| [ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz) | 739.4 KiB | `native/linux/arm64/musl` |
-| [ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz) | 735.6 KiB | `native/linux/arm/musl` |
-| [ssh-list-v1.5.1-i686-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-pc-windows-msvc.zip) | 536.5 KiB | `native/win/x64` |
-| [ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz) | 789.3 KiB | `native/linux/x86/musl` |
-| [ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz) | 677.1 KiB | `native/darwin/x64` |
-| [ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip) | 559.5 KiB | `native/win/x64` |
-| [ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz) | 762.9 KiB | `native/linux/x64/musl` |
 
 ## 流行度
 
@@ -49,18 +46,24 @@ x install ssh-list
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 1 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 2 | 0 |
 | 360d | 2025-09-15 | 2 | 0 | 1 | 1 | 4 | 0 |
+| last720d | 2024-09-20 | 8 | 1 | 1 | 5 | 4 | 42 |
 
-## 代码规模
+## Release 资产
 
-合计: **1,763** 行代码（覆盖前 5 种语言、共 **8** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 1,740 | 0 | 98 | 5 |
-| Toml | 23 | 0 | 2 | 1 |
-| Markdown | 0 | 102 | 16 | 2 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz) | 652.1 KiB | `native/darwin/arm64` |
+| [ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz) | 739.4 KiB | `native/linux/arm64/musl` |
+| [ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz) | 735.6 KiB | `native/linux/arm/musl` |
+| [ssh-list-v1.5.1-i686-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-pc-windows-msvc.zip) | 536.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz) | 789.3 KiB | `native/linux/x86/musl` |
+| [ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz) | 677.1 KiB | `native/darwin/x64` |
+| [ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip) | 559.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz) | 762.9 KiB | `native/linux/x64/musl` |
 
 ## 改进这些数据
 
@@ -71,4 +74,4 @@ ssh-list 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:52:22Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:52:28Z._

@@ -12,6 +12,16 @@
 x install ssh-list
 ```
 
+## Code insight
+
+Total: **1,763** lines of code across **8** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 1,740 | 0 | 98 | 5 |
+| Toml | 23 | 0 | 2 | 1 |
+| Markdown | 0 | 102 | 16 | 2 |
+
 ## Source
 
 - **Upstream**: <https://github.com/akinoiro/ssh-list>
@@ -22,19 +32,6 @@ x install ssh-list
 - **Latest**: `v1.5.1` (2025-10-27)
 - **Last commit**: 2025-10-27
 - **Assets in release**: 8
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz) | 652.1 KiB | `native/darwin/arm64` |
-| [ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz) | 739.4 KiB | `native/linux/arm64/musl` |
-| [ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz) | 735.6 KiB | `native/linux/arm/musl` |
-| [ssh-list-v1.5.1-i686-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-pc-windows-msvc.zip) | 536.5 KiB | `native/win/x64` |
-| [ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz) | 789.3 KiB | `native/linux/x86/musl` |
-| [ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz) | 677.1 KiB | `native/darwin/x64` |
-| [ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip) | 559.5 KiB | `native/win/x64` |
-| [ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz) | 762.9 KiB | `native/linux/x64/musl` |
 
 ## Popularity
 
@@ -49,18 +46,24 @@ x install ssh-list
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 1 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 2 | 0 |
 | 360d | 2025-09-15 | 2 | 0 | 1 | 1 | 4 | 0 |
+| last720d | 2024-09-20 | 8 | 1 | 1 | 5 | 4 | 42 |
 
-## Code size
+## Release assets
 
-Total: **1,763** lines of code across **8** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 1,740 | 0 | 98 | 5 |
-| Toml | 23 | 0 | 2 | 1 |
-| Markdown | 0 | 102 | 16 | 2 |
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz) | 652.1 KiB | `native/darwin/arm64` |
+| [ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz) | 739.4 KiB | `native/linux/arm64/musl` |
+| [ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz) | 735.6 KiB | `native/linux/arm/musl` |
+| [ssh-list-v1.5.1-i686-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-pc-windows-msvc.zip) | 536.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz) | 789.3 KiB | `native/linux/x86/musl` |
+| [ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz) | 677.1 KiB | `native/darwin/x64` |
+| [ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip) | 559.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz) | 762.9 KiB | `native/linux/x64/musl` |
 
 ## Improve this data
 
@@ -71,4 +74,4 @@ Install metadata for ssh-list lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:52:21Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:52:27Z._
