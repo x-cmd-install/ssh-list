@@ -4,7 +4,7 @@
 
 🧑‍💻 SSH connection manager with a TUI interface
 
-![ssh-list](https://repo.x-cmd.io/ssh-list.svg)
+![ssh-list](https://repo.x-cmd.io/ssh-list.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,19 @@ x install ssh-list
 - **最新版本**: `v1.5.1` (2025-10-27)
 - **最近提交**: 2025-10-27
 - **Release 含资产**: 8 个
-- **发布时间**: 2025-10-27T21:33:38Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz) | 652.1 KiB | `native/darwin/arm64` |
+| [ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz) | 739.4 KiB | `native/linux/arm64/musl` |
+| [ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz) | 735.6 KiB | `native/linux/arm/musl` |
+| [ssh-list-v1.5.1-i686-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-pc-windows-msvc.zip) | 536.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz) | 789.3 KiB | `native/linux/x86/musl` |
+| [ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz) | 677.1 KiB | `native/darwin/x64` |
+| [ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip) | 559.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz) | 762.9 KiB | `native/linux/x64/musl` |
 
 ## 流行度
 
@@ -59,4 +71,4 @@ ssh-list 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:55:26Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:52:22Z._

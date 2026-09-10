@@ -22,7 +22,19 @@ x install ssh-list
 - **Latest**: `v1.5.1` (2025-10-27)
 - **Last commit**: 2025-10-27
 - **Assets in release**: 8
-- **Published**: 2025-10-27T21:33:38Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-apple-darwin.tar.gz) | 652.1 KiB | `native/darwin/arm64` |
+| [ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-aarch64-unknown-linux-musl.tar.gz) | 739.4 KiB | `native/linux/arm64/musl` |
+| [ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-armv7-unknown-linux-musleabihf.tar.gz) | 735.6 KiB | `native/linux/arm/musl` |
+| [ssh-list-v1.5.1-i686-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-pc-windows-msvc.zip) | 536.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-unknown-linux-musl.tar.gz) | 789.3 KiB | `native/linux/x86/musl` |
+| [ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-apple-darwin.tar.gz) | 677.1 KiB | `native/darwin/x64` |
+| [ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip) | 559.5 KiB | `native/win/x64` |
+| [ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz) | 762.9 KiB | `native/linux/x64/musl` |
 
 ## Popularity
 
@@ -55,8 +67,8 @@ Total: **1,763** lines of code across **8** files in the top 5 languages.
 Install metadata for ssh-list lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ssh-list` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/ssh-list.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/ssh-list.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:55:26Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:52:21Z._
