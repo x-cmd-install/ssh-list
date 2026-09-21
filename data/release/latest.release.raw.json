@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 549370,
       "digest": "sha256:4b48766a2e4154e45802e1a5f6b31bc648e6d43d7f6ae23290be00af9bfadac2",
-      "download_count": 11,
+      "download_count": 12,
       "created_at": "2025-10-27T21:00:01Z",
       "updated_at": "2025-10-27T21:00:01Z",
       "browser_download_url": "https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-i686-pc-windows-msvc.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 572959,
       "digest": "sha256:e29919cf092fab1fc30c606c10da5ac1f72e79dd29030eafb578a1bf13cb2dfc",
-      "download_count": 44,
+      "download_count": 46,
       "created_at": "2025-10-27T20:59:45Z",
       "updated_at": "2025-10-27T20:59:45Z",
       "browser_download_url": "https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-pc-windows-msvc.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 781255,
       "digest": "sha256:c5070a3c35023c1658e56e0b7a57e338bb27b8302ddcb06bf2c6f1ce581c43c8",
-      "download_count": 1006,
+      "download_count": 1012,
       "created_at": "2025-10-27T21:33:28Z",
       "updated_at": "2025-10-27T21:33:28Z",
       "browser_download_url": "https://github.com/akinoiro/ssh-list/releases/download/v1.5.1/ssh-list-v1.5.1-x86_64-unknown-linux-musl.tar.gz"
