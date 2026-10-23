@@ -1,0 +1,1 @@
+[{"repo":"aur","srcname":"ssh-list","binname":"ssh-list","visiblename":"ssh-list","version":"1.5.0","origversion":"1.5.0-1","status":"unique","summary":"A SSH connection manager with a TUI interface","maintainers":["orhun@aur"],"licenses":["GPL-3.0-or-later"]}]
